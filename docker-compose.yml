@@ -11,5 +11,6 @@ services:
     environment:
       RAILS_LOG_TO_STDOUT: 'true'
       FORCE_SSL: 'false'
+      SECRET_KEY_BASE: 'teste'
     ports: 
     - "3000:3000"
