@@ -1,0 +1,15 @@
+services:
+  frontend:
+    container_name: venti_frontend
+    build: ./sc-frontend
+    ports: 
+    - "8080:8080"
+
+  backend:
+    container_name: venti_backend
+    build: ./sc-backend
+    environment:
+      RAILS_LOG_TO_STDOUT: 'true'
+      FORCE_SSL: 'false'
+    ports: 
+    - "3000:3000"
