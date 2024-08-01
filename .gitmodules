@@ -1,6 +1,6 @@
 [submodule "sc-backend"]
 	path = sc-backend
-	url = git@github.com:dandeeccastro/sc-backend.git
+	url = https://github.com/dandeeccastro/sc-backend
 [submodule "sc-frontend"]
 	path = sc-frontend
-	url = git@github.com:sorazem/sc-frontend.git
+	url = https://github.com/sorazem/sc-frontend
